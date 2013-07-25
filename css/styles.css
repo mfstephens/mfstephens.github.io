@@ -37,12 +37,18 @@ h1 {
 	background-color: yellow;
 }
 
+.project-previews-container {
+	width: 260px;
+	margin: 0 auto;
+}
+
 .project-preview {
 	display: inline-block;
-	width: 220px;
-	height: 220px;
+	width: 260px;
+	height: 260px;
 	background-color: green;
-	margin: 8.5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	border-radius: 4px;
 }
 
@@ -51,11 +57,20 @@ h1 {
 	.main{
 		width: 480px;
 	}
+	.project-previews-container {
+		width: 260px;
+	}
 }
 
 @media (min-width: 720px) {
 	.main{
 		width: 720px;
+	}
+	.project-previews-container {
+		width: 550px;
+	}
+	.project-preview {
+		margin: 10px;
 	}
 }
 
@@ -63,14 +78,18 @@ h1 {
 	.main{
 		width: 960px;
 	}
+	.project-previews-container {
+		width: 550px;
+	}
+	.project-preview {
+		margin: 10px;
+	}
 }
 
 .first {
-	margin-top: 0 !important;
 	margin-left: 0 !important;
 }
 
 .last {
-	margin-bottom: 0 !important;
 	margin-right: 0 !important;
 }
