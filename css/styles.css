@@ -1,0 +1,26 @@
+.main {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.header {
+	
+}
+
+@media (min-width: 480px) {
+	.main{
+		width: 480px;
+	}
+}
+
+@media (min-width: 720px) {
+	.main{
+		width: 720px;
+	}
+}
+
+@media (min-width: 960px) {
+	.main{
+		width: 960px;
+	}
+}
