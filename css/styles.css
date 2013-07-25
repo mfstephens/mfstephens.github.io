@@ -1,11 +1,51 @@
+@font-face {
+	font-family: Cabin-SemiBold;
+	font-weight: bold;
+	src: url("../fonts/SourceCodePro-Bold.otf") format("opentype");
+}
+
+* { 
+	font-family: Cabin-SemiBold;
+	color: #333;
+}
+
+h1 {
+	font-size: 50px;
+}
+
 .main {
 	width: 320px;
 	margin: 0 auto;
+	background-color: grey;
 }
 
 .header {
-	
+	width: 300px;
+	margin: 0 auto;
 }
+
+.about-me {
+	width: 320px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: blue;
+}
+
+.contact-me {
+	width: 320px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.project-preview {
+	display: inline-block;
+	width: 220px;
+	height: 220px;
+	background-color: green;
+	margin: 8.5px;
+	border-radius: 4px;
+}
+
 
 @media (min-width: 480px) {
 	.main{
@@ -23,4 +63,14 @@
 	.main{
 		width: 960px;
 	}
+}
+
+.first {
+	margin-top: 0 !important;
+	margin-left: 0 !important;
+}
+
+.last {
+	margin-bottom: 0 !important;
+	margin-right: 0 !important;
 }
