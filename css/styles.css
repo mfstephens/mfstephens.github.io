@@ -6,29 +6,43 @@
 
 * { 
 	font-family: Cabin-SemiBold;
-	color: 	 #333;
 }
 
 h1 {
 	font-size: 50px;
+	text-shadow: horizontal-offset vertical-offset blur color;
+	text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h5 {
+	padding: 5px;
+	font-size: 20px;
+	text-shadow: horizontal-offset vertical-offset blur color;
+	text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
 }
 
 html {
-	background-image: url("../pw_pattern.png")
+	background-image: url("../ticks.png");
 }
 
 .main {
 	width: 320px;
 	margin: 0 auto;
-	background-color: #FFF;
-	-moz-box-shadow: 0px 2px 2px #bbb;
-	-webkit-box-shadow: 0px 2px 2px #bbb;
-	box-shadow: 0px 2px 2px #bbb;
+	background-color: #FFFAFA;
+	-moz-box-shadow: 0px 10px 10px #bbb;
+	-webkit-box-shadow: 0px 10px 10px #bbb;
+	box-shadow: 0px 10px 10px #bbb;
+	color: #B06A3B;
 }
 
 .header {
 	margin: 0 auto;
-	background-color: #74A6BD;
+	color: #D4E7ED;
+	background-color: #EB8540;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	-moz-box-shadow: 0px 2px 2px #bbb;
@@ -41,28 +55,25 @@ html {
 }
 
 .about-me {
-	width: 320px;
-	height: 100px;
-	margin: 0 auto;
-	background-color: blue;
+	width: 260px;
+	margin: 20px auto;
 }
 
 .contact-me {
-	width: 320px;
-	height: 100px;
-	background-color: yellow;
+	width: 260px;
+	margin: 20px auto;
 }
 
 .project-previews-container {
 	width: 260px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 .project-preview {
 	display: inline-block;
 	width: 260px;
 	height: 260px;
-	background-color: white;
+	background-color: grey;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 4px;
@@ -76,7 +87,7 @@ html {
 	.main{
 		width: 480px;
 	}
-	.project-previews-container {
+	.project-previews-container, .about-me, .contact-me {
 		width: 260px;
 	}
 }
@@ -85,7 +96,7 @@ html {
 	.main{
 		width: 720px;
 	}
-	.project-previews-container {
+	.project-previews-container, .about-me, .contact-me {
 		width: 550px;
 	}
 	.project-preview {
@@ -97,7 +108,7 @@ html {
 	.main{
 		width: 960px;
 	}
-	.project-previews-container {
+	.project-previews-container, .about-me, .contact-me {
 		width: 550px;
 	}
 	.project-preview {
