@@ -1,12 +1,12 @@
 @font-face {
 	font-family: Cabin-SemiBold;
-	font-weight: bold;
 	src: url("../fonts/Aleo-Bold.otf") format("opentype");
 }
 
 * { 
 	font-family: Cabin-SemiBold;
 }
+
 
 h1 {
 	font-size: 50px;
@@ -18,22 +18,17 @@ h2 {
 
 h5 {
 	padding-top: 5px;
-	font-size: 20px;
-}
-
-html {
-	background-image: url("../ticks.png");
-	background-color: #FFFAFA;
+	font-size: 18px;
 }
 
 .main {
 	width: 320px;
 	margin: 0 auto;
-	background-color: #FFFAFA;
-	-moz-box-shadow: 0px 10px 10px #bbb;
-	-webkit-box-shadow: 0px 10px 10px #bbb;
-	box-shadow: 0px 10px 10px #bbb;
-	color: #333;
+	background-color: #FDFBF5;
+	-moz-box-shadow: 0px 5px 10px #bbb;
+	-webkit-box-shadow: 0px 5px 10px #bbb;
+	box-shadow: 0px 5px 10px #bbb;
+	color: #397249;
 }
 
 .header {
@@ -49,8 +44,11 @@ html {
 }
 
 .logo {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 18px;
+	width: 335px;
+	margin: 0 auto;
 }
 
 .tree {
@@ -60,8 +58,8 @@ html {
 	width: 150px;
 	height: 200px;
 	float: right;
-	margin-top: -38px;
-	margin-right: 10px;
+	margin-top: -41px;
+	margin-right: 20px;
 }
 
 .birdy {
@@ -73,6 +71,55 @@ html {
 	float: right;
 	padding-right: 5px;
 }
+
+.elephant {
+	background-image: url("../10699_vector.svg");
+	width: 40px;
+	height: 40px;
+	background-size: 40px;
+	background-repeat:no-repeat;
+	float: right;
+	margin-top: 84px;
+}
+
+.giraffe {
+	background-image: url("../15951_vector.svg");
+	width: 65px;
+	height: 65px;
+	background-size: 65px;
+	background-repeat:no-repeat;
+	float: left;
+	margin-top: 48px;
+}
+
+.birdyz {
+	background-image: url("../birdyz.png");
+	background-size: 90px;
+	width: 90px;
+	height: 50px;
+	background-repeat:no-repeat;
+	float: left;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+
+.deer {
+	background-image: url("../16593_vector.svg");
+	width: 45px;
+	height: 45px;
+	background-size: 45px;
+	background-repeat:no-repeat;
+	float: left;
+	margin-top: 75px;
+	margin-left: 35px;
+}
+
+.cross-hatch {
+	height:11px;
+	background: url("../cross-hatch-row1-bottom.png") bottom center repeat-x;
+	background-size: 10px;
+}
+
 
 .about-me {
 	width: 260px;
