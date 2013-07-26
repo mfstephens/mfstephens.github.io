@@ -10,8 +10,6 @@
 
 h1 {
 	font-size: 50px;
-	text-shadow: horizontal-offset vertical-offset blur color;
-	text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
 }
 
 h2 {
@@ -19,14 +17,13 @@ h2 {
 }
 
 h5 {
-	padding: 5px;
+	padding-top: 5px;
 	font-size: 20px;
-	text-shadow: horizontal-offset vertical-offset blur color;
-	text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
 }
 
 html {
 	background-image: url("../ticks.png");
+	background-color: #FFFAFA;
 }
 
 .main {
@@ -36,22 +33,45 @@ html {
 	-moz-box-shadow: 0px 10px 10px #bbb;
 	-webkit-box-shadow: 0px 10px 10px #bbb;
 	box-shadow: 0px 10px 10px #bbb;
-	color: #B06A3B;
+	color: #333;
 }
 
 .header {
 	margin: 0 auto;
-	color: #D4E7ED;
-	background-color: #EB8540;
+	color: #333;
+	background-image: url("../10-Subtle-Textures06.jpg");
 	padding-bottom: 20px;
 	padding-top: 20px;
 	-moz-box-shadow: 0px 2px 2px #bbb;
 	-webkit-box-shadow: 0px 2px 2px #bbb;
 	box-shadow: 0px 2px 2px #bbb;
+	overflow: none;
 }
 
 .logo {
 	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.tree {
+	background-image: url("../tree.svg");
+	background-size: 150px;
+	background-repeat:no-repeat;
+	width: 150px;
+	height: 200px;
+	float: right;
+	margin-top: -38px;
+	margin-right: 10px;
+}
+
+.birdy {
+	background-image: url("../birdy.png");
+	background-repeat:no-repeat;
+	background-size: 30px;
+	width: 30px;
+	height: 30px;
+	float: right;
+	padding-right: 5px;
 }
 
 .about-me {
@@ -62,6 +82,7 @@ html {
 .contact-me {
 	width: 260px;
 	margin: 20px auto;
+	padding-bottom: 20px;
 }
 
 .project-previews-container {
