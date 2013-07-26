@@ -1,15 +1,16 @@
 @font-face {
-	font-family: Cabin-SemiBold;
+	font-family: Aleo-Bold;
 	src: url("../fonts/Aleo-Bold.otf") format("opentype");
 }
 
 * { 
-	font-family: Cabin-SemiBold;
+	font-family: Aleo-Bold;
 }
 
 
 h1 {
 	font-size: 50px;
+	display: inline-block;
 }
 
 h2 {
@@ -19,7 +20,19 @@ h2 {
 h5 {
 	padding-top: 5px;
 	font-size: 18px;
+	display: inline-block;
 }
+
+p {
+	color: #333;
+}
+
+hr.dotted {
+height:8px;
+      border: 4px double #999;
+      display: inline-block;
+}
+
 
 .main {
 	width: 320px;
@@ -28,26 +41,24 @@ h5 {
 	-moz-box-shadow: 0px 5px 10px #bbb;
 	-webkit-box-shadow: 0px 5px 10px #bbb;
 	box-shadow: 0px 5px 10px #bbb;
-	color: #397249;
+	color: #00628B;
 }
 
 .header {
 	margin: 0 auto;
-	color: #333;
+	color: #00628B;
 	background-image: url("../10-Subtle-Textures06.jpg");
 	padding-bottom: 20px;
 	padding-top: 20px;
-	-moz-box-shadow: 0px 2px 2px #bbb;
+/*	-moz-box-shadow: 0px 2px 2px #bbb;
 	-webkit-box-shadow: 0px 2px 2px #bbb;
-	box-shadow: 0px 2px 2px #bbb;
+	box-shadow: 0px 2px 2px #bbb;*/
 	overflow: none;
 }
 
 .logo {
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-top: 18px;
-	width: 335px;
+	text-align: center;
+	width: 720px;
 	margin: 0 auto;
 }
 
@@ -141,7 +152,7 @@ h5 {
 	display: inline-block;
 	width: 260px;
 	height: 260px;
-	background-color: grey;
+	background-image: url("../10-Subtle-Textures06.jpg");
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 4px;
@@ -165,7 +176,7 @@ h5 {
 		width: 720px;
 	}
 	.project-previews-container, .about-me, .contact-me {
-		width: 550px;
+		width: 480px;
 	}
 	.project-preview {
 		margin: 10px;
@@ -177,7 +188,7 @@ h5 {
 		width: 960px;
 	}
 	.project-previews-container, .about-me, .contact-me {
-		width: 545px;
+		width: 720px;
 	}
 	.project-preview {
 		margin: 10px;
