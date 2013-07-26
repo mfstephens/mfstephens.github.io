@@ -123,7 +123,7 @@ h5 {
 
 .about-me {
 	width: 260px;
-	margin: 20px auto;
+	margin: 40px auto  20px auto;
 }
 
 .contact-me {
@@ -177,7 +177,7 @@ h5 {
 		width: 960px;
 	}
 	.project-previews-container, .about-me, .contact-me {
-		width: 550px;
+		width: 545px;
 	}
 	.project-preview {
 		margin: 10px;
