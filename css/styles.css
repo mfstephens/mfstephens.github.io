@@ -98,21 +98,42 @@ p {
 	width: 260px;
 }
 
-.content {
-	padding: 0 0 .8em 0;
+.umich-logo {
+	background: url("../Michigan.png");
+	background-repeat: none;
+	background-size: 300px;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	float: right;
 }
 
-.project-previews-container {
-	width: 260px;
-	margin: 20px auto;
+.content {
+	padding: 0 0 .7em 0;
+}
+
+.body p{
+  font-family: Verdana;
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+  column-count: 2;
+  column-gap: 1em;
+  line-height: 1.5em;
+  color: rgb(69,54,37);
+}
+
+.about-me {
+	width: 360px;
+	display: inline-block;
 }
 
 .project-preview {
 	display: inline-block;
-	width: 260px;
-	height: 260px;
+	width: 14em;
+	height: 14em;
 	background-image: url("../10-Subtle-Textures06.jpg");
-	margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 4px;
 	-moz-box-shadow: 0px 2px 2px #bbb;
