@@ -3,6 +3,10 @@
 	src: url("../fonts/Aleo-Bold.otf") format("opentype");
 }
 
+html, body{
+	height: 100%;
+}
+
 * { 
 	font-family: Aleo-Bold;
 }
@@ -27,104 +31,59 @@ p {
 	color: #333;
 }
 
-/*hr.dotted {
-	height:8px;
-      border: 4px double #999;
-      display: inline-block;
-}*/
+.nav {
+	margin: 0 auto;
+	width: 23.8em;
+	margin-top: 10em;
+}
 
+.nav-item {
+	border: none;
+	background-color: #efefe3;
+	display: inline;
+	cursor: pointer;
+	font-size: 1.3em;
+	margin: 0 1em;
+	color: #7F1917;
+}
 
 .main {
 	width: 320px;
 	margin: 0 auto;
-	background-color: #FDFBF5;
+	background-color: #efefe3;
 	-moz-box-shadow: 0px 5px 10px #bbb;
 	-webkit-box-shadow: 0px 5px 10px #bbb;
 	box-shadow: 0px 5px 10px #bbb;
-	color: #00628B;
+	color: #6D929B;
+	margin-top: 4.2em;
 }
 
 .header {
 	margin: 0 auto;
 	color: #00628B;
-	background-image: url("../10-Subtle-Textures06.jpg");
+	background-color: #6d6b5f;
 	padding: 1em 0 1em 0;
-/*	-moz-box-shadow: 0px 2px 2px #bbb;
+	-moz-box-shadow: 0px 2px 2px #bbb;
 	-webkit-box-shadow: 0px 2px 2px #bbb;
-	box-shadow: 0px 2px 2px #bbb;*/
+	box-shadow: 0px 2px 2px #bbb;
 	overflow: none;
+	height: 1em;
 }
 
 .logo {
-	text-align: center;
-	width: 260px;
-	margin: 0 auto;
-}
-
-.tree {
-	background-image: url("../tree.svg");
-	background-size: 150px;
-	background-repeat:no-repeat;
-	width: 150px;
-	height: 200px;
-	float: right;
-	margin-top: -41px;
-	margin-right: 20px;
-}
-
-.birdy {
-	background-image: url("../birdy.png");
-	background-repeat:no-repeat;
-	background-size: 30px;
-	width: 30px;
-	height: 30px;
-	float: right;
-	padding-right: 5px;
-}
-
-.elephant {
-	background-image: url("../10699_vector.svg");
-	width: 40px;
-	height: 40px;
-	background-size: 40px;
-	background-repeat:no-repeat;
-	float: right;
-	margin-top: 84px;
-}
-
-.giraffe {
-	background-image: url("../drawing.svg");
-	width: 300px;
-	height: 300px;
-	background-size: 1000px;
-	background-repeat:no-repeat;
-	float: left;
-	margin-left: 100px;
-	margin-top: 48px;
-	position: absolute;
-	z-index: -1;
-}
-
-.birdyz {
-	background-image: url("../birdyz.png");
-	background-size: 90px;
-	width: 90px;
-	height: 50px;
-	background-repeat:no-repeat;
-	float: left;
-	margin-top: -10px;
-	margin-left: 30px;
-}
-
-.deer {
-	background-image: url("../16593_vector.svg");
-	width: 45px;
-	height: 45px;
-	background-size: 45px;
-	background-repeat:no-repeat;
-	float: left;
-	margin-top: 75px;
-	margin-left: 35px;
+	background-image: url("../emblem.svg");
+	background-repeat: no-repeat;
+	background-size: 15em;
+	width: 15em;
+	height: 15em;
+	margin-top: -4.2em;
+	
+	position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	z-index: 1;
 }
 
 .cross-hatch {
@@ -134,15 +93,13 @@ p {
 }
 
 
-.about-me {
+.SPA {
+	margin:0 auto;
 	width: 260px;
-	margin: 40px auto  20px auto;
 }
 
-.contact-me {
-	width: 260px;
-	margin: 20px auto;
-	padding-bottom: 20px;
+.content {
+	padding: 0 0 .8em 0;
 }
 
 .project-previews-container {
@@ -168,7 +125,7 @@ p {
 	.main{
 		width: 480px;
 	}
-	.project-previews-container, .about-me, .contact-me {
+	.project-previews-container, .SPA {
 		width: 260px;
 	}
 }
@@ -177,7 +134,7 @@ p {
 	.main{
 		width: 720px;
 	}
-	.project-previews-container, .about-me, .contact-me {
+	.project-previews-container, .SPA {
 		width: 480px;
 	}
 	.project-preview {
@@ -189,7 +146,7 @@ p {
 	.main{
 		width: 960px;
 	}
-	.project-previews-container, .about-me, .contact-me {
+	.project-previews-container, .SPA {
 		width: 720px;
 	}
 	.project-preview {
