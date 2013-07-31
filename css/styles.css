@@ -107,19 +107,33 @@ p {
 }
 
 .content {
-	padding: .7em 0 .7em 0;
+	padding: 1em 0 1em 0;
 }
 
-.body p{
+p {
   font-family: Verdana;
-  -moz-column-count: 2;
-  -moz-column-gap: 1em;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 1em;
-  column-count: 2;
-  column-gap: 1em;
+  width: 23em;
   line-height: 1.5em;
   color: rgb(69,54,37);
+  margin-bottom: 1em;
+}
+
+.link {
+	font-family: Verdana;
+	border: none;
+	background-color: transparent;
+	line-height: 1.5em;
+	font-size: 1em;
+	color: #7F1917;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	border-bottom: 1px solid #6d6b5f;
+	text-decoration: none;
+}
+
+.link:hover {
+	border-bottom: 1px solid;
 }
 
 .about-me {
@@ -138,10 +152,10 @@ hr {
 
 .project-preview {
 	display: inline-block;
-	width: 14em;
-	height: 14em;
+	width: 14.3em;
+	height: 14.4em;
 	background-image: url("../10-Subtle-Textures06.jpg");
-	margin-bottom: 15px;
+	margin: 0 .4em .9em .4em;
 	border-radius: 4px;
 	-moz-box-shadow: 0px 2px 2px #bbb;
 	-webkit-box-shadow: 0px 2px 2px #bbb;
@@ -173,9 +187,6 @@ footer {
 	.project-previews-container, .SPA {
 		width: 480px;
 	}
-	.project-preview {
-		margin: 10px;
-	}
 }
 
 @media (min-width: 960px) {
@@ -185,9 +196,6 @@ footer {
 	.project-previews-container, .SPA {
 		width: 720px;
 	}
-	.project-preview {
-		margin: 10px;
-	}
 }
 
 .first {
@@ -196,4 +204,5 @@ footer {
 
 .last {
 	margin-right: 0 !important;
+	margin-top: 0 !important;
 }
