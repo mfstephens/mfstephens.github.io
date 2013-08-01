@@ -3,6 +3,41 @@
 	src: url("../fonts/Aleo-Bold.otf") format("opentype");
 }
 
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 60px;
+    color: #7F1917;
+    cursor: pointer;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
 html, body{
 	height: 100%;
 }
@@ -33,7 +68,8 @@ p {
 
 .nav {
 	margin: 0 auto;
-	width: 23.8em;
+	width: 100%;
+	text-align: center;
 	margin-top: 10em;
 }
 
@@ -126,6 +162,12 @@ p {
   width: 23em;
 }
 
+.contact p, span{
+	width: 26em;
+	margin-bottom: 2em;
+	margin: 0 auto;
+}
+
 .link {
 	font-family: Verdana;
 	border: none;
@@ -136,7 +178,7 @@ p {
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-	border-bottom: 1px solid #6d6b5f;
+	border-bottom: 1px solid #999;
 	text-decoration: none;
 }
 
@@ -179,7 +221,7 @@ footer p {
 }
 
 footer p .link {
-	color: #f2b8b7;
+	color: #7F1917;
 	border-color: #999;
 }
 
