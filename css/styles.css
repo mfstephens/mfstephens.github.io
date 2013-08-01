@@ -170,12 +170,22 @@ hr {
 	box-shadow: 0px 2px 2px #bbb;
 }
 
-footer {
-	padding: 1em;
+footer p {
+	padding: 2em;
 	clear: both;
 	text-align: center;
 	font-size: 80%;
 	color: #999;
+}
+
+footer p .link {
+	color: #f2b8b7;
+	border-color: #999;
+}
+
+footer p .link:hover {
+	color: #7F1917;
+	border-bottom: 1px solid;
 }
 
 
