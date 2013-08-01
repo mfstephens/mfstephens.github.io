@@ -1,4 +1,4 @@
-$("#about-nav").click(function() {
+$(".about").click(function() {
 	$("#projects-nav").removeClass("selected-tab");
 	$("#contact-nav").removeClass("selected-tab");
 	$("#about-nav").addClass("selected-tab");
@@ -16,5 +16,5 @@ $(".contact").click(function() {
 	$("#projects-nav").removeClass("selected-tab");
 	$("#about-nav").removeClass("selected-tab");
 	$("#contact-nav").addClass("selected-tab");
-	$(".content").html("<p> Want to talk about beer, fun side-projects, or maybe even hire me? Shoot me an email: </p> <p> email: mfstep@umich.edu Personal email: mfstephens9@gmail.com </p> <p> Interested in learning more about me? Check me out on... </p>");
+	$(".content").html('<p> Want to talk about beer, fun side-projects, or maybe even hire me? Shoot me an email: </p> <p> <strong>email</strong>: <a class="link" href="mfstep@umich.edu">mfstep@umich.edu</a> </p> <p> <strong>Personal email</strong>: <a class="link href="mfstephens9@gmail.com">mfstephens9@gmail.com</a> </p> <p> Interested in learning more about me? Check me out on... </p>')
 });

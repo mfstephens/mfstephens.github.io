@@ -13,7 +13,7 @@ html, body{
 
 
 h1 {
-	font-size: 3em;
+	fon t-size: 3em;
 	display: inline-block;
 }
 
@@ -45,6 +45,10 @@ p {
 	font-size: 1.3em;
 	margin: 0 1em;
 	color: #7F1917;
+}
+
+.nav-item:hover {
+	background-color: #d0cec1;
 }
 
 .main {
@@ -84,6 +88,7 @@ p {
     margin-left:auto;
     margin-right:auto;
 	z-index: 1;
+	cursor: pointer;
 }
 
 .cross-hatch {
@@ -112,10 +117,13 @@ p {
 
 p {
   font-family: Verdana;
-  width: 23em;
   line-height: 1.5em;
-  color: rgb(69,54,37);
   margin-bottom: 1em;
+  color: rgb(69,54,37);
+}
+
+.about p {
+  width: 23em;
 }
 
 .link {
