@@ -15,7 +15,7 @@
     font-style: normal;
 }
 
-.symbol, a.symbol:before {
+.symbol {
     font-family: 'Mono Social Icons Font';
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
@@ -27,19 +27,9 @@
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    font-size: 60px;
+    font-size: 4.5em;
     color: #7F1917;
     cursor: pointer;
-}
-
-a.symbol:before {
-    content: attr(title);
-    margin-right: 0.3em;
-    font-size: 130%;
-}
-
-.symbol:hover {
-    color: #333;
 }
 
 html, body{
@@ -166,11 +156,23 @@ p {
   width: 23em;
 }
 
-.contact p, span{
+.contact-buttons-container {
+	width: 100%;
+	text-align: center;
+}
+
+.contact-button {
+	display: inline-block;
+	padding: 2em;
+	width: 6em;
+	text-align: center;
+}
+
+/*.contact p, span{
 	width: 26em;
 	margin-bottom: 2em;
 	margin: 0 auto;
-}
+}*/
 
 .link {
 	font-family: Verdana;
