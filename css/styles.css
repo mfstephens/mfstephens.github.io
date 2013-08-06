@@ -38,6 +38,10 @@ a.symbol:before {
     font-size: 130%;
 }
 
+.symbol:hover {
+    color: #333;
+}
+
 html, body{
 	height: 100%;
 }
