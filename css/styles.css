@@ -168,6 +168,13 @@ p {
 	text-align: center;
 }
 
+.background-highlight {
+	height: 4em;
+	width: 3.7em;
+	margin-top: 1em;
+	border-radius: 1em;
+}
+
 /*.contact p, span{
 	width: 26em;
 	margin-bottom: 2em;
