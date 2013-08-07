@@ -30,7 +30,6 @@
     font-size: 4.5em;
     color: #7F1917;
     cursor: pointer;
-    margin-top: -5em;
 }
 
 html, body{
@@ -163,16 +162,8 @@ p {
 }
 
 .contact-button {
-	display: inline-block;
 	padding: 2em;
-	width: 6em;
 	text-align: center;
-}
-
-.background-highlight {
-	width: 3.7em;
-	margin-top: 1em;
-	border-radius: 1em;
 }
 
 /*.contact p, span{
