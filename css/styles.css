@@ -30,6 +30,7 @@
     font-size: 4.5em;
     color: #7F1917;
     cursor: pointer;
+    margin-top: -5em;
 }
 
 html, body{
@@ -169,7 +170,6 @@ p {
 }
 
 .background-highlight {
-	height: 4em;
 	width: 3.7em;
 	margin-top: 1em;
 	border-radius: 1em;
