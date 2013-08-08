@@ -17,6 +17,7 @@
 
 .pseudo-link {
 	text-decoration: none;
+	padding: .4em .4em 0 .4em;
 }
 
 .symbol {
@@ -72,13 +73,10 @@ p {
 }
 
 .nav-item {
-	border: none;
-	background-color: #efefe3;
-	display: inline;
-	cursor: pointer;
 	font-size: 1.3em;
 	margin: 0 1em;
 	color: #7F1917;
+	display: inline-block;
 }
 
 .nav-item:hover {
