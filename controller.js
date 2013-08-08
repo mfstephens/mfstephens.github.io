@@ -18,12 +18,3 @@ $(".contact").click(function() {
 	$("#contact-nav").addClass("selected-tab");
 	$(".content").html("<p> Want to talk about beer, side-projects, or maybe even hire me? I'm always looking for stuff to do. </p> <p> <span class='symbol'>roundedemail</span> <span class='symbol'>&#xe437;</span> <span class='symbol'>roundedlinkedin</span> <span class='symbol'>roundedgoogleplus</span> </p>");
 });
-
-$(document).ready(function() {
-     $(".contact-button").hover(function() {
-         $(".background-highlight").css("background-color", "#333");
-     },
-     function() {
-     	$(".background-highlight").css("background-color", "transparent");
-     });
-});
