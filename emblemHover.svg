@@ -14,7 +14,7 @@
    id="svg6552"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="emblem.svg">
+   sodipodi:docname="emblemHover.svg">
   <defs
      id="defs6554" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.919596"
-     inkscape:cx="106.29138"
-     inkscape:cy="119.8748"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-58.341353"
+     inkscape:cy="110.62704"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -61,12 +61,12 @@
        id="polygon5613"
        style="fill:#333" />
     <path
-       style="fill:#efefe3;fill-opacity:1"
+       style="fill:#7f1917;fill-opacity:1"
        inkscape:connector-curvature="0"
        d="m 115.71429,203.86218 c -50.453002,0 -91.500002,-41.047 -91.500002,-91.5 0,-50.453001 41.047,-91.500001 91.500002,-91.500001 50.453,0 91.5,41.047 91.5,91.500001 0,50.453 -41.047,91.5 -91.5,91.5 z m 0,-180.000001 c -48.799002,0 -88.500002,39.701 -88.500002,88.500001 0,48.799 39.701,88.5 88.500002,88.5 48.799,0 88.5,-39.701 88.5,-88.5 0,-48.799001 -39.701,-88.500001 -88.5,-88.500001 z"
        id="path5615" />
     <path
-       style="fill:#efefe3;fill-opacity:1"
+       style="fill:#7f1917;fill-opacity:1"
        inkscape:connector-curvature="0"
        d="m 115.71429,191.86218 c -43.837,0 -79.500002,-35.664 -79.500002,-79.5 0,-43.836001 35.663002,-79.500001 79.500002,-79.500001 43.837,0 79.5,35.664 79.5,79.500001 0,43.836 -35.663,79.5 -79.5,79.5 z m 0,-156.000001 c -42.183,0 -76.500002,34.318 -76.500002,76.500001 0,42.182 34.317002,76.5 76.500002,76.5 42.183,0 76.5,-34.318 76.5,-76.5 0,-42.182001 -34.317,-76.500001 -76.5,-76.500001 z"
        id="path5617" />

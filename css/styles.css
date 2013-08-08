@@ -125,6 +125,10 @@ p {
 	cursor: pointer;
 }
 
+.logo:hover {
+	background-image: url("../emblemHover.svg")
+}
+
 .cross-hatch {
 	height:11px;
 	background: url("../cross-hatch-row1-bottom.png") bottom center repeat-x;
