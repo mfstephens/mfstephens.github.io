@@ -1,0 +1,33 @@
+.symbol {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 5em;
+    color: #7F1917;
+    cursor: pointer;
+}
+
+.contact-buttons-container {
+	width: 100%;
+	text-align: center;
+}
+
+.contact-button {
+	text-align: center;
+	display: inline-block;
+	width: 9.5em;
+	margin: .5em;
+}
+
+.contact-description {
+	text-align: center;
+	padding: 0 3em 0 3em;
+}
