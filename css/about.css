@@ -1,0 +1,11 @@
+.content p {
+	width: 23em;
+}
+
+.umich-logo {
+	background: url("../Michigan2.png");
+	background-repeat: no-repeat;
+	background-size: 300px;
+	width: 300px;
+	display: inline-block;
+}
