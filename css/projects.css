@@ -30,6 +30,10 @@
 	background-size: cover;
 }
 
+#space-pioneers:hover {
+	background-image: url("../img/gamejambeta-preview-hover.png");
+}
+
 #calculator{
 	background-image: url("../img/calculator-preview.png");
 	background-size: cover;
