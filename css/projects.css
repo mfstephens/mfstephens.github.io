@@ -2,7 +2,6 @@
 	display: inline-block;
 	width: 13.6em;
 	height: 14.6em;
-	/*background-color: rgba(255,255,255,0.5);*/
 	margin: 0 .4em .9em .4em;
 	border-radius: 4px;
 	-moz-box-shadow: 0px 2px 2px #bbb;
@@ -56,4 +55,39 @@
 	height: 14.6em;
 	overflow: none;
 	background-position: 10%;
+}
+
+.source-code-link {
+	background-image: url("../img/code-emblem.svg");
+	width: 2.231em;
+	height: 2.231em;
+	background-repeat: no-repeat;
+	margin: 0 .5em 1em .5em;
+	display: none;
+}
+
+.preview-link {
+	background-image: url("../img/preview-emblem.svg");
+	width: 2.231em;
+	height: 2.231em;
+	background-repeat: no-repeat;
+	margin: 0 .5em 1em .5em;
+	display: none;
+}
+
+.info-link {
+	background-image: url("../img/info-emblem.svg");
+	width: 2.231em;
+	height: 2.231em;
+	background-repeat: no-repeat;
+	margin: 0 .5em 1em .5em;
+	display: none;
+}
+
+.content-controls {
+	padding-top: 12em;
+	padding-bottom: .604em;
+	height: 2.231em;
+	width: 13.6em;
+	text-align: center;
 }
