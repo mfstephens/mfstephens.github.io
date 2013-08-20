@@ -22,28 +22,28 @@
 	padding-top: 1em;
 }
 
-#space-pioneers{
+#space-pioneers-wrapper{
 	background-image: url("../img/gamejambeta-preview.png");
 }
 
-#space-pioneers:hover {
+#space-pioneers-wrapper:hover {
 	background-image: url("../img/gamejambeta-preview-hover.png");
 }
 
-#calculator {
+#calculator-wrapper {
 	background-image: url("../img/calculator-preview.png");
 }
 
-#calculator:hover {
+#calculator-wrapper:hover {
 	background-image: url("../img/calculator-preview-hover.png");
 }
 
-#superhaiku {
+#superhaiku-wrapper {
 	background-image: url("../img/superhaiku-preview.png");
 	background-repeat: no-repeat;
 }
 
-#game {
+#game-wrapper {
 	background-image: url("../img/game-preview.png");
 	background-position: center;
 }
@@ -62,7 +62,6 @@
 	height: 2.231em;
 	background-repeat: no-repeat;
 	margin: 0 .5em 1em .5em;
-	cursor: pointer;
 }
 
 .source-code-link {
@@ -70,12 +69,24 @@
 	display: none;
 }
 
+.source-code-link:hover {
+	background-image: url("../img/code-emblem-hover.svg");
+}
+
 .preview-link {
 	background-image: url("../img/preview-emblem.svg");
 	display: none;
 }
 
+.preview-link:hover {
+	background-image: url("../img/preview-emblem-hover.svg");
+}
+
 .info-link {
 	background-image: url("../img/info-emblem.svg");
 	display: none;
+}
+
+.info-link:hover {
+	background-image: url("../img/info-emblem-hover.svg");
 }

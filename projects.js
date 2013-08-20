@@ -1,40 +1,27 @@
-$(".content-controls").hover(function() {
-	$(".source-code-link").css("display", "inline-block");
-	$(".preview-link").css("display", "inline-block");
-	$(".info-link").css("display", "inline-block");
+var displayControlsById = function(id) {
+	$("#" + id + "-code").css("display", "inline-block");
+	$("#" + id + "-preview").css("display", "inline-block");
+	$("#" + id + "-info").css("display", "inline-block");	
+};
+
+var hideControlsById = function(id) {
+	$("#" + id + "-code").css("display", "none");
+	$("#" + id + "-preview").css("display", "none");
+	$("#" + id + "-info").css("display", "none");
+}
+
+$("#space-pioneers").mouseout(function() {
+	hideControlsById($(this).attr('id'));
 });
 
-$(".source-code-link").hover(function() {
-	$(".source-code-link").css("display", "inline-block");
-	$(".source-code-link").css("background-image", "url('img/code-emblem-hover.svg')");
+$("#space-pioneers").mouseover(function() {
+	displayControlsById($(this).attr('id'));
 });
 
-$(".preview-link").hover(function() {
-	$(".preview-link").css("display", "inline-block");
-	$(".preview-link").css("background-image", "url('img/preview-emblem-hover.svg')");
+$("#calculator").mouseout(function() {
+	hideControlsById($(this).attr('id'));
 });
 
-$(".info-link").hover(function() {
-	$(".info-link").css("display", "inline-block");
-	$(".info-link").css("background-image", "url('img/info-emblem-hover.svg')");
-});
-
-$(".preview-link").mouseout(function() {
-	$(".preview-link").css("background-image", "url('img/preview-emblem.svg')");
-});
-
-$(".info-link").mouseout(function() {
-	$(".info-link").css("background-image", "url('img/info-emblem.svg')");
-});
-
-$(".source-code-link").mouseout(function() {
-	$(".source-code-link").css("background-image", "url('img/code-emblem.svg')");
-})
-
-$(".content-controls").mouseout(function() {
-	if(!$(".content-controls").is(":hover")) {
-		$(".source-code-link").css("display", "none");
-		$(".preview-link").css("display", "none");
-		$(".info-link").css("display", "none");
-	}
+$("#calculator").mouseover(function() {
+	displayControlsById($(this).attr('id'));
 });
