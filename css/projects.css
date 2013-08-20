@@ -7,7 +7,6 @@
 	-moz-box-shadow: 0px 2px 2px #bbb;
 	-webkit-box-shadow: 0px 2px 2px #bbb;
 	box-shadow: 0px 2px 2px #bbb;
-	overflow: none;
 }
 
 .first {
@@ -25,64 +24,30 @@
 
 #space-pioneers{
 	background-image: url("../img/gamejambeta-preview.png");
-	background-position: center;
-	background-size: cover;
 }
 
 #space-pioneers:hover {
 	background-image: url("../img/gamejambeta-preview-hover.png");
 }
 
-#calculator{
+#calculator {
 	background-image: url("../img/calculator-preview.png");
-	background-size: cover;
 }
 
-#superhaiku{
+#calculator:hover {
+	background-image: url("../img/calculator-preview-hover.png");
+}
+
+#superhaiku {
 	background-image: url("../img/superhaiku-preview.png");
 	background-repeat: no-repeat;
 }
 
-#game{
+#game {
 	background-image: url("../img/game-preview.png");
 	background-position: center;
 }
 
-#bottom_fade {
-	background-image: url("../img/bottom-fade.png");
-	background-size: cover;
-	width: 13.6em;
-	height: 14.6em;
-	overflow: none;
-	background-position: 10%;
-}
-
-.source-code-link {
-	background-image: url("../img/code-emblem.svg");
-	width: 2.231em;
-	height: 2.231em;
-	background-repeat: no-repeat;
-	margin: 0 .5em 1em .5em;
-	display: none;
-}
-
-.preview-link {
-	background-image: url("../img/preview-emblem.svg");
-	width: 2.231em;
-	height: 2.231em;
-	background-repeat: no-repeat;
-	margin: 0 .5em 1em .5em;
-	display: none;
-}
-
-.info-link {
-	background-image: url("../img/info-emblem.svg");
-	width: 2.231em;
-	height: 2.231em;
-	background-repeat: no-repeat;
-	margin: 0 .5em 1em .5em;
-	display: none;
-}
 
 .content-controls {
 	padding-top: 12em;
@@ -90,4 +55,27 @@
 	height: 2.231em;
 	width: 13.6em;
 	text-align: center;
+}
+
+.content-link-option {
+	width: 2.231em;
+	height: 2.231em;
+	background-repeat: no-repeat;
+	margin: 0 .5em 1em .5em;
+	cursor: pointer;
+}
+
+.source-code-link {
+	background-image: url("../img/code-emblem.svg");
+	display: none;
+}
+
+.preview-link {
+	background-image: url("../img/preview-emblem.svg");
+	display: none;
+}
+
+.info-link {
+	background-image: url("../img/info-emblem.svg");
+	display: none;
 }
