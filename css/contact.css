@@ -23,13 +23,18 @@
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
     font-size: 5em;
-    color: #7F1917;
+    color: #333;
     cursor: pointer;
+}
+
+.symbol:hover {
+    color: #7F1917;
 }
 
 .contact-buttons-container {
 	width: 100%;
 	text-align: center;
+    padding: 1em;
 }
 
 .contact-button {
@@ -41,5 +46,5 @@
 
 .contact-description {
 	text-align: center;
-	padding: 0 3em 0 3em;
+	padding: 0 2em;
 }
