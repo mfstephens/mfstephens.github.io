@@ -8,7 +8,7 @@ html, body{
 	background-color: #efefe3;
 }
 
-hr {
+.nav-wrapper hr {
 	height: 2px;
 	border: 0;
 	background-color: #efefe3;
@@ -21,7 +21,7 @@ hr {
 	background-image: -o-linear-gradient(left, #efefe3, #bab9b5, #efefe3);
 }
 
-hr::after {
+.nav-wrapper hr::after {
 	content: '';
 	display: block;
 	height: 1px;
@@ -35,6 +35,14 @@ hr::after {
 
 header {
 	text-align: center;
+}
+
+h1 {
+	font-family: Verdana;
+	color: rgb(69,54,37);
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: .5em;
 }
 
 p {

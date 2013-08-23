@@ -9,14 +9,14 @@
 	box-shadow: 0px 2px 2px #bbb;
 }
 
-/*.first {
+.first {
 	margin-left: 0 !important;
 }
 
 .last {
 	margin-right: 0 !important;
 	margin-top: 0 !important;
-}*/
+}
 
 #space-pioneers-wrapper{
 	background-image: url("../img/gamejambeta-preview.png");
@@ -46,6 +46,10 @@
 
 .projects-wrapper {
 	text-align: center;
+}
+
+.content {
+	padding: 0;
 }
 
 .content-controls {
