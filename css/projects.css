@@ -50,9 +50,17 @@
 	background-repeat: no-repeat;
 }
 
+#superhaiku-wrapper:hover {
+	background-image: url("../img/superhaiku-preview-hover.png");
+}
+
 #game-wrapper {
 	background-image: url("../img/game-preview.png");
 	background-position: center;
+}
+
+#game-wrapper:hover {
+	background-image: url("../img/game-preview-hover.png");
 }
 
 .projects-wrapper {
