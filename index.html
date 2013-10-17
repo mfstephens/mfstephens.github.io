@@ -1,73 +1,210 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Matt Stephens - Student & Software Developer</title>
-        <meta name="description" content="The Personal Website of Matt Stephens: Student & Software Developer">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link type="image/x-icon" rel="icon" href="img/favicon.ico">
-        <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/about.css">
-    </head>
-    <body>
-    <div class="main">
-        <div class="page-view">
-            <header>
-            <a href="http://mfstephens.com"><img src="img/emblem.svg" alt="Matt Stephens Emblem" class="emblem"></a>
-                <div class="nav-wrapper">
-                    <hr>
-                    <hr>
-                    <nav class="nav">
-                        <ul>
-                            <li class="nav-item">
-                                <a href="http://mfstephens.com" class="pseudo-link">About</a>
-                            </li>
-                            <li  class="nav-item">
-                                <a href="projects.html" class="pseudo-link">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="miscellaneous.html" class="pseudo-link">Miscellaneous</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="contact.html" class="pseudo-link">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <hr>
-                    <hr>
-                </div>
-            </header>
-            <div class="content">
-                <h1>About</h1>
-                <img class="about-picture" src='img/me.jpg'>
-                <p>
-                    Hi there. I'm Matt Stephens. I'm a student at the <a href='http://cs.lsa.umich.edu/' class='link'>University of Michigan</a> in my third year studying computer science. I live in Ann Arbor pretty much year round, but I love to travel. I also like programming, music, and good beer.
-                </p>
-                <p>
-                    I have experience with JavaScript (and all its friends, including Backbone, Angular, jQuery, and Node), HTML+CSS, and C++. I'm especially interested in game design. I've programmed a few games, but have yet to work on a major project. If you're interested, you can head over and check out my <a href="projects.html" class="prjoects link">projects page</a> to see some stuff I've worked on.
-                </p>
-                <p>
-                    I'm currently seeking an internship for summer 2014. You can head over to my <a href="contact.html" class="contact link">contact page</a> if you'd like to contact me about work, side projects, or even just to chat.
-                </p>
-            </div>
-            <footer>
-                <p>
-                    All content Copyright &copy; Matthew Stephens 2013. Licensed under <a class="link" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons License</a>. Generously hosted by <a class="link" href="http://pages.github.com/">GitHub Pages</a>. Source code available <a  class="link" href="https://github.com/mfstephens/mfstephens.github.io">here</a>. Please enjoy your stay.
-                </p>
-            </footer>
-        </div>
-    </div>
-    </body>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        ga('create', 'UA-41989100-2', 'mfstephens.com');
-        ga('send', 'pageview');
-    </script>
-</html> 
+    <title>Stylish Portfolio Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="icon-reorder"></i></a>
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="icon-remove"></i></a>
+        <li class="sidebar-brand"><a href="http://startbootstrap.com">Matthew Stephens</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Miscellaneous</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /Side Menu -->
+  
+    <!-- Full Page Image Header Area -->
+    <div class="header">
+      <div class="vert-text">
+        <h1>Matthew Stephens</h1>
+        <h3>Student & Developer</h3>
+        <a href="#intro" class="btn btn-default btn-lg">Find Out More</a>
+      </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+  
+    <!-- Intro -->
+    <div id="intro" class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>About Me</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>Subtle Sidebar is the Perfect Template for your Next Portfolio Website Project!</h2>
+            <p class="lead">This template really has it all. It's up to you to customize it to your liking! It features some fresh photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Intro -->
+  
+    <!-- Services -->
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>My Skills</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2 text-center">
+            <div class="service-item">
+              <i class="service-icon icon-rocket"></i>
+              <h4>Web Development</h4>
+              <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon icon-magnet"></i>
+              <h4>C++</h4>
+              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon icon-shield"></i>
+              <h4>Game Development</h4>
+              <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon icon-pencil"></i>
+              <h4>Pencil Sharpening</h4>
+              <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Services -->
+
+    <!-- Callout -->
+    <div class="callout">
+      <div class="vert-text">
+        <h1>A Dramatic Text Area</h1>
+      </div>
+    </div>
+    <!-- /Callout -->
+
+    <!-- Portfolio -->
+    <div class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Our Work</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a>
+              <h4>Cityscape</h4>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Is That On Fire?</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-3.jpg"></a>
+              <h4>Stop Sign</h4>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="portfolio-item">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-4.jpg"></a>
+              <h4>Narrow Focus</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Call to Action -->
+    <div class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h3>The buttons below are impossible to resist.</h3>
+            <a href="#" class="btn btn-lg btn-default">Click Me!</a>
+            <a href="#" class="btn btn-lg btn-primary">Look at Me!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Call to Action -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <ul class="list-inline">
+              <li><a href="https://plus.google.com/112399172421768253395/posts"><i class="icon-google-plus-sign icon-2x"></i></a></li>
+              <li><a href="https://github.com/mfstephens"><i class="icon-github-sign icon-2x"></i></a></li>
+              <li><a href="http://www.linkedin.com/pub/matthew-stephens/68/2b8/b42"><i class="icon-linkedin-sign icon-2x"></i></a></li>
+            </ul>
+            <hr>
+            <p>Copyright &copy; Matthew Stephens 2013</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <!-- Custom JavaScript for the Side Menu - Put in a custom JS file if you want to clean this up -->
+  <script>
+      $("#menu-close").click(function(e) {
+          e.preventDefault();
+          $("#sidebar-wrapper").toggleClass("active");
+      });
+  </script>
+  <script>
+      $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+          $("#sidebar-wrapper").toggleClass("active");
+      });
+  </script>
+
+  </body>
+
+</html>
