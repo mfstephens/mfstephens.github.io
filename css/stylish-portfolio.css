@@ -20,8 +20,6 @@ body {
 }
 
 .landing-text {
-  width: 38em;
-  margin: 0 auto;
   background: rgba(255, 255, 255, .75);
   border-radius: 4px;
 }
@@ -135,8 +133,15 @@ body {
   padding: 50px 0;
 }
 
-.intro p {
-  font-size: 16px;
+.intro p{
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+  column-count: 2;
+  column-gap: 1em;
+  line-height: 1.5em;
+  color: rgb(69,54,37);
 }
 
 /* Services */
@@ -167,6 +172,15 @@ i.service-icon:hover {
   font-size: 68px;
 }
 
+i.cpp-icon {
+  font-style: normal;
+  font-size: 45px;
+}
+
+i.cpp-icon:hover {
+  font-size: 57px;
+}
+
 /* Callout */
 
 .callout {
@@ -182,18 +196,6 @@ i.service-icon:hover {
 }
 
 /* Portfolio */
-
-.portfolio {
-  padding: 50px 0;
-}
-
-.portfolio-item {
-  margin-bottom: 25px;
-}
-
-.img-portfolio {
-  margin: 0 auto;
-}
 
 
 /* Call to Action */
@@ -212,4 +214,17 @@ i.service-icon:hover {
 
 footer {
   padding: 100px 0;
+}
+
+footer h3 {
+  margin-bottom: 1em;
+}
+
+footer li {
+  font-size: 1.6em;
+}
+
+.footer-block{
+  display: inline-block;
+  padding: 0 3em 0 3em;
 }
