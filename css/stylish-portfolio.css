@@ -19,6 +19,17 @@ body {
   font-weight: 700;
 }
 
+.landing-text {
+  width: 38em;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .75);
+  border-radius: 4px;
+}
+
+.landing-text a {
+  margin-bottom: 14px;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -124,10 +135,14 @@ body {
   padding: 50px 0;
 }
 
+.intro p {
+  font-size: 16px;
+}
+
 /* Services */
 
 .services {
-  background: #7fbbda;
+  background: #287AA9;
   padding: 50px 0;
   color: #ffffff;
 }
@@ -185,7 +200,7 @@ i.service-icon:hover {
 
 .call-to-action {
   color: #ffffff;
-  background: #0a5175;
+  background: #999999;
   padding: 50px 0;
 }
 
@@ -197,12 +212,4 @@ i.service-icon:hover {
 
 footer {
   padding: 100px 0;
-}
-
-.list-inline a {
-  color: inherit;
-}
-
-.list-inline a:hover {
-  text-decoration: none;
 }
