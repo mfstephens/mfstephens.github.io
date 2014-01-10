@@ -5,181 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The personal website of Matt Stephens, student and software developer">
     <meta name="author" content="Matthew Stephens">
-
     <link type="image/x-icon" rel="icon" href="img/favicon.ico">
     <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
-
-    <title>Matt Stephens: Student & Software Developer</title>
-
-    <!-- Bootstrap core CSS -->
+    <title>Matt Stephens</title>
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
-
-    <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="icon-reorder"></i></a>
-    <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="icon-remove"></i></a>
-        <li class="sidebar-brand"><a href="http://mfstephens.com">Matt Stephens</a></li>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#intro">About Me</a></li>
-        <li><a href="#services">My Skills</a></li>
-        <li><a href="#portfolio">My Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    <!-- /Side Menu -->
-  
     <!-- Full Page Image Header Area -->
     <div id="top" class="header">
       <div class="vert-text">
-        <div class="landing-text col-md-6 col-md-offset-3">
+        <div class="header-container white">
+          <h3>Introducing</h3>
           <h1>Matt Stephens</h1>
           <h3>Student & Software Developer</h3>
-          <a href="#intro" class="btn btn-default btn-lg btn-primary">Find Out More</a>
+          <div class="col-md-6 col-md-offset-3 social-icons">
+            <div class="linky"><a href="http://www.linkedin.com/pub/matthew-stephens/68/2b8/b42"><i class="icon-linkedin icon-fw"></i></a></div>
+            <div class="linky"><a href="https://github.com/mfstephens"><i class="icon-github icon-fw"></i></a></div>
+            <div class="linky"><a href="https://plus.google.com/u/0/112399172421768253395/posts"><i class="icon-google-plus icon-fw"></i></a></div>
+            <div class="linky"><a href="mailto:mfstep@umich.edu"><i class="icon-envelope-alt icon-fw"></i></a></div>
+          </div>
         </div>
+        <div class="arrow"><div class="arrow-linky"><a href="#about"><i class="icon-circle-arrow-down icon-fw white"></i></a></div></div>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
-  
-    <!-- Intro -->
-    <div id="intro" class="intro">
+    
+    <!-- About -->
+    <div id ="about" class="about">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
-            <h2>About Me</h2>
+            <h2>About</h2>
             <hr>
           </div>
           <div class="col-md-8 col-md-offset-2">
-            <h3>Creative, Passionate, Ambitious, and Technically Skilled</h3>
-            <p class="text-left">Hi there. I'm Matt Stephens. I'm a student at the <a href="http://umich.edu">University of Michigan</a> in my third year studying computer science. I have a passion for technology, but I also like things that challenge my creativity. I have attempted to combine these two aspirations through building websites and games both professionally and on my own. In my free time, I enjoy playing guitar, drinking good beer, and building web applications. I'm currently searching for an awesome summer internship in 2014. So, if you're interested in what you've heard so far, please read on!</p>
+            <div class="photo">
+              <img src="img/wallave.jpg" alt="Matt Stephens" class="img-circle img-responsive">
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3">
+            <hr>
+            <div class="col-md-6 about-text">
+              <p class="text-left">Hello. I'm Matt Stephens (the guy on the left). I'm a student at the <a href="http://umich.edu">University of Michigan</a> in my third year studying computer science. I have a passion for technology, but I also like things that challenge me creatively. I attempt to combine these two aspirations through building websites and designing video games.</p>
+            </div> 
+            <div class="col-md-6 about-text">
+              <p class="text-left">I have developed software applications both professionally and personally. I am comfortable with technologies such as C++, JavaScript, CSS, Node, JQuery, and AngularJS.</p>
+              <p class="text-left">Some random stuff I like: playing guitar, live music, good beer, running, Gin Gin Ginger Candy.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- /Intro -->
-  
-    <!-- Services -->
-    <div id="services" class="services">
+    <!-- About -->
+
+    <!-- Jobs -->
+    <div id ="jobs" class="jobs">
+      <div class="arrow-down gray"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
-            <h2>My Skills</h2>
+            <h2>Jobs</h2>
             <hr>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-2 text-center">
-            <div class="service-item">
-              <i class="service-icon icon-html5"></i>
-              <h4>Web Design</h4>
-              <p>I have skills in developing both functional and aesthetically pleasing websites/apps. I'm experienced with jQuery, BackboneJS, AngularJS, Bootstrap and LESS. </p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <i class="service-icon icon-gamepad"></i>
-              <h4>Game Design</h4>
-              <p>I like developing HTML5 games, especially platformers. I have used open source frameworks such as melonJS and limeJS for some personal projects.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <i class="service-icon cpp-icon">.cpp</i>
-              <h4>C++</h4>
-              <p>I understand the ins and outs of object oriented programming in C++. As the primary tool for my school work, my knowledge of this language is constantly growing.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <i class="service-icon icon-code-fork"></i>
-              <h4>Git</h4>
-              <p>I have used git for my personal projects as well as with a team of developers. I am also familiar with the github-git workflow.</p>
-            </div>
+          <div class="col-md-6 col-md-offset-3">
+            <h4><a href="http://instaedu.com">InstaEDU</a></h4>
+            <h5>Computer Science Tutor from September 2013 - Present</h5>
+            <p>I tutor stduents in computer science concepts such as data structure, algorithms, and Object-oriented programming.</p>
+            <hr>
+            <h4><a href="http://techsmith.com">TechSmith Corporation</a></h4>
+            <h5>Software Engineering Intern from May 2013 - September 2013</h5>
+            <p>I worked with a team of developers on TechSmith's cloud services division. My responsibilities included implementing front-end features on TechSmith's web services. My contributions resulted in websites that were more user friendly and functional.</p>
+            <hr>
           </div>
         </div>
       </div>
     </div>
-    <!-- /Services -->
+    <!-- Jobs -->
 
     <!-- Portfolio -->
     <div id ="portfolio" class="portfolio">
+      <div class="arrow-down blue"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
-            <h2>My Work</h2>
+            <h2>Projects</h2>
             <hr>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h3>Work Experience</h3>
-            <ul>
-              <h4><a href="http://techsmith.com">TechSmith Corporation</a></h4>
-              <h5>Software Engineering Intern from May 2013 - September 2013</h5>
-              <p>I worked with a team of developers on TechSmith's cloud services division. My responsibilities included implementing front-end features on TechSmith's web services. My contributions resulted in websites that were more user friendly and functional.</p>
-              <hr>
-              <h4><a href="http://instaedu.com">InstaEDU</a></h4>
-              <h5>Computer Science Tutor from September 2013 - Present</h5>
-              <p>I work as a computer science tutor on the website InstaEDU. My responsibilities include teaching students topics ranging from algorithms and data structures to web development.</p>
-              <hr>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-          <h3>Personal Projects</h3>
-          <ul>
-            <h4><a href="http://type-race.herokuapp.com/">TypeRace</a></h4>
-            <p>I built TypeRace, a game that lets your test your typing speed in real time against an opponent.</p>
-            <hr>
-            <h4><a href="http://mfstephens.com/superhaiku">Superhaiku</a></h4>
-            <p>I built Superhaiku, a youtube haiku randomizer. It utilizes Reddit's API to fetch data as well as YouTube's video player API to dipsplay the videos.</p>
-            <hr>
-            <h4><a href="http://mfstephens.com/melonJS-platformer/">MelonJS Platformer</a></h4>
-            <p>I built a small platformer with the melonJS HTML5 game engine. You control an alien that can jump around on platforms.</p>
-            <hr>
-            <h4><a href="http://mfstephens.com/Minesweeper">Minesweeper</a></h4>
-            <p>I built a web-based Minesweeper game that allows you to change the board size and even cheat.</p>
-            <hr>
-            <h4><a href="http://mfstephens.com/GameJamBeta">Space Pioneers</a></h4>
-            <p>I built Space Pioneers with two other developers and an artist during a 48 hour game-jam. Your objective is to upgrade your colony's buildings and defenses to protect yourself from the elements.</p>
-            <hr>
-            <h4><a href="http://mfstephens.com/CalculatorJS">Calculator</a></h4>
-            <p>I built a small calculator as an exercise in learning JavaScript.</p>
-            <hr>
-          </ul>
+          <div class="col-md-6 col-md-offset-3">
+          <h4><a href="http://type-race.herokuapp.com/">TypeRace</a></h4>
+          <p>I built TypeRace, a game that lets your test your typing speed in real time against an opponent.</p>
+          <hr>
+          <h4><a href="http://mfstephens.com/superhaiku">Superhaiku</a></h4>
+          <p>I built Superhaiku, a youtube haiku randomizer. (A youtube haiku is any interesting/funny video that is under 14 seconds long)</p>
+          <hr>
+          <h4><a href="http://mfstephens.com/melonJS-platformer/">MelonJS Platformer</a></h4>
+          <p>I built a small video game with the melonJS HTML5 game engine. You control an alien that can jump around on platforms.</p>
+          <hr>
+          <h4><a href="http://mfstephens.com/Minesweeper">Minesweeper</a></h4>
+          <p>I built a typical minesweeper game implemented in JavaScript.</p>
+          <hr>
+          <h4><a href="http://mfstephens.com/GameJamBeta">Space Pioneers</a></h4>
+          <p>I built Space Pioneers during a 48 hour game-jam with a team of 3 other developers. Your objective is to upgrade your colony's buildings and defenses to protect it from the elements.</p>
+          <hr>
         </div>
       </div>
     </div>
     <!-- /Portfolio -->
 
     <!-- Footer -->
-    <footer id="contact" class="call-to-action">
+    <footer class="copyright-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
-            <div class="text-left footer-block">
-              <h3>Contact Me</h3>
-              <h5><b>Email:</b> mfstep@umich.edu</h5>
-              <h5><b>Location:</b> Ann Arbor, MI</h5>
-            </div>
-            <div class="text-left footer-block">
-              <h3>Check Me Out</h3>
-              <ul class="list-inline">
-                <li><a href="http://www.linkedin.com/pub/matthew-stephens/68/2b8/b42"><i class="icon-linkedin icon-2x"></i></a></li>
-                <li><a href="https://github.com/mfstephens"><i class="icon-github icon-2x"></i></a></li>
-                <li><a href="https://plus.google.com/u/0/112399172421768253395/posts"><i class="icon-google-plus icon-2x"></i></a></li>
-              </ul>
-            </div>
+            <div class="arrow-linky"><a href="#top"><i class="icon-circle-arrow-up icon-fw white"></i></a></div>
             <hr>
-            <p>Copyright &copy; Matthew Stephens 2013</p>
+            <p>Copyright &copy; Matthew Stephens 2014 in Ann Arbor, MI</p>
           </div>
         </div>
       </div>
@@ -192,18 +135,6 @@
   <script src="js/bootstrap.js"></script>
 
   <!-- Custom JavaScript for the Side Menu - Put in a custom JS file if you want to clean this up -->
-  <script>
-      $("#menu-close").click(function(e) {
-          e.preventDefault();
-          $("#sidebar-wrapper").toggleClass("active");
-      });
-  </script>
-  <script>
-      $("#menu-toggle").click(function(e) {
-          e.preventDefault();
-          $("#sidebar-wrapper").toggleClass("active");
-      });
-  </script>
   <script>
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
