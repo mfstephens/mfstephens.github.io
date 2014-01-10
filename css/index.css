@@ -105,7 +105,6 @@ h2 {
   position: absolute;
   bottom: 2%;
   width: 100%;
-  display: none;
 }
 
 .arrow-linky a {
@@ -117,6 +116,7 @@ h2 {
   -webkit-transition:-webkit-transform .8s;
   -moz-transition:-moz-transform .8s;
   transition:transform .8s;
+  display: none;
 }
 
 .arrow-linky:hover {
@@ -130,7 +130,7 @@ h2 {
 /* About Me */
 
 .photo {
-  margin: 1em auto;
+  margin: 0 auto;
   width: 250px;
 
 }
@@ -157,7 +157,7 @@ h2 {
 }
 
 .jobs a {
-  color: #333;
+  color: #fff;
 }
 
 /* Footer */
@@ -200,7 +200,7 @@ h2 {
   .header-container {
     width: 600px;
   }
-  .arrow {
+  .arrow-linky {
     display: block;
   }
 }
