@@ -117,7 +117,7 @@ h2 {
   -moz-transition:-moz-transform .8s;
   transition:transform .8s;
   display: none;
-  width: 40px;
+  width: 45px;
   margin: 0 auto;
 }
 
