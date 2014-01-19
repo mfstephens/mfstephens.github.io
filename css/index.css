@@ -66,7 +66,7 @@ h2 {
 .vert-text h1 {
   padding: .25em 0em;
   margin: 0;
-  font-size: 62px;
+  font-size: 4.3em;
   font-weight: 600;
 }
 
@@ -204,7 +204,10 @@ h2 {
 /* Breakpoints */
 @media (min-width: 600px) {
   .header-container {
-    width: 600px;
+    width: 540px;
+  }
+  .vert-text h1 {
+    font-size: 5.3em;
   }
   .arrow-linky {
     display: block;
