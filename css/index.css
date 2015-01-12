@@ -203,10 +203,10 @@ h2 {
 /* Breakpoints */
 @media (min-width: 600px) {
   .header-container {
-    width: 540px;
+    width: 600px;
   }
   .vert-text h1 {
-    font-size: 5.3em;
+    font-size: 6.0em;
   }
   .arrow-linky {
     display: block;
