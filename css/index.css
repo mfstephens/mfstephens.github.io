@@ -1,13 +1,21 @@
 /* Global Styles */
 
+
+
 html,
 body {
   height: 100%;
   width: 100%;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 h2 {
   font-size: 38px;
+  font-family: 'Lato', sans-serif;
 }
 
 .last {
@@ -21,7 +29,7 @@ h2 {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url("../img/bg2.jpg") no-repeat center center fixed;
+  /*background: url("../img/bg2.jpg") no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,13 +40,13 @@ h2 {
   overflow: hidden;
   text-align: center;
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "PT Serif", Georgia, serif;
 }
 
 .header h3:before,
 .header h3:after {
-  background-color: rgba(255, 255, 255, .6);
+  background-color: #5F9EA0;
   content: "";
   display: inline-block;
   height: 2px;
@@ -61,13 +69,16 @@ h2 {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  padding-bottom: 5em;
 }
 
-.vert-text h1 {
+h1 {
   padding: .25em 0em;
   margin: 0;
   font-size: 4.3em;
-  font-weight: 600;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+  z-index: 2031;
 }
 
 .header-container {
@@ -78,25 +89,27 @@ h2 {
 /* Social Media Icons */
 
 .social-icons .linky a{
-  text-decoration: none;
-  color: #fff;
+  color: #c9563f;
 }
 
 .social-icons .linky {
-  padding: 8px;
-  font-size: 28px;
+  /*padding: 8px;*/
+  font-size: 22px;
   text-decoration: none;
   -webkit-transition:-webkit-transform 0.1s;
   -moz-transition:-moz-transform 0.1s;
   transition:transform 0.1s;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
-.social-icons .linky:hover {
-  cursor: pointer;
-  -webkit-transform:scale(1.5);
-  -moz-transform:scale(1.5);
-  transform:scale(1.5);
+hr {
+  border-top: 3px solid;
+  width: 50px;
+  color: #5F9EA0;
+}
+
+li a span {
+  color: #5F9EA0;
 }
 
 /* Arrow Icons */
@@ -139,16 +152,24 @@ h2 {
 
 .about-text {
   line-height: 1.6em;
-  font-size: 16px;
 }
 
 .about {
   padding-bottom: 40px;
 }
 
+.about a {
+  color: #c9563f;
+}
+
 /* Portfolio */
 
-.portfolio {
+.portfolio a {
+  color: #c9563f;
+}
+
+.entries p {
+  margin-bottom: 5px;
 }
 
 /* Portfolio */
@@ -158,14 +179,13 @@ h2 {
 }
 
 .jobs a {
-  color: #fff;
+  color: #c9563f;
 }
 
 /* Footer */
 
 .copyright-footer {
-  background: url("../img/bg2.jpg") center fixed;
-  color: #ffffff;
+  /*color: #ffffff;*/
   padding: 50px 0;
 }
 
@@ -177,6 +197,10 @@ h2 {
 
 .white {
   color: #fff;
+}
+
+.red {
+  color: #c9563f;
 }
 
 .gray {
@@ -206,11 +230,16 @@ h2 {
     width: 600px;
   }
   .vert-text h1 {
-    font-size: 6.0em;
+    font-size: 5em;
   }
   .arrow-linky {
     display: block;
   }
+}
+
+.container-fluid {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 /* fade in */
@@ -222,6 +251,29 @@ h2 {
         -ms-animation: fadein 3s; /* Internet Explorer */
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav .custom-item-header {
+  color: #333333;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-nav .custom-item-header:hover {
+  color: #c9563f;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
 }
 
 @keyframes fadein {
