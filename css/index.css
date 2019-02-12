@@ -1,7 +1,5 @@
 /* Global Styles */
 
-
-
 html,
 body {
   height: 100%;
@@ -88,8 +86,10 @@ h1 {
 
 /* Social Media Icons */
 
-.social-icons .linky a{
+.social-icons i {
   color: #c9563f;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .social-icons .linky {
@@ -105,10 +105,6 @@ h1 {
 hr {
   border-top: 3px solid;
   width: 50px;
-  color: #5F9EA0;
-}
-
-li a span {
   color: #5F9EA0;
 }
 
