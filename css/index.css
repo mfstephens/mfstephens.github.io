@@ -4,20 +4,57 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+h1 {
+  padding: .25em 0em;
+  margin: 0;
+  font-size: 3em;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+  z-index: 2031;
+  color: #333333;
+  line-height: 1.1;
 }
 
 h2 {
   font-size: 38px;
   font-family: 'Lato', sans-serif;
+  color: #333333;
+  font-weight: 500;
+  margin: 0;
 }
 
-.last {
-  padding-bottom: 80px;
+h3 {
+  font-weight: 500;
+  color: #333333;
+}
+
+a {
+  color: #c9563f;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Helvetica', sans-serif;
+  color: #333333;
+}
+
+hr {
+  border-top: 3px solid;
+  width: 50px;
+  color: #5F9EA0;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* Header Styles */
@@ -70,42 +107,35 @@ h2 {
   padding-bottom: 5em;
 }
 
-h1 {
-  padding: .25em 0em;
-  margin: 0;
-  font-size: 4.3em;
-  font-weight: 200;
-  font-family: 'Lato', sans-serif;
-  z-index: 2031;
-}
-
 .header-container {
   width: 290px;
   margin: 0 auto;
 }
 
-/* Social Media Icons */
+/* Footer */
+
+footer {
+  max-width: 200px;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+/* Socials */
 
 .social-icons i {
   color: #c9563f;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
-.social-icons .linky {
-  /*padding: 8px;*/
-  font-size: 22px;
-  text-decoration: none;
-  -webkit-transition:-webkit-transform 0.1s;
-  -moz-transition:-moz-transform 0.1s;
-  transition:transform 0.1s;
-  /*display: inline-block;*/
-}
-
-hr {
-  border-top: 3px solid;
-  width: 50px;
+.social-icons i:hover {
   color: #5F9EA0;
+}
+
+.social-icons {
+  font-size: 1.3em;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Arrow Icons */
@@ -125,7 +155,6 @@ hr {
   -webkit-transition:-webkit-transform .8s;
   -moz-transition:-moz-transform .8s;
   transition:transform .8s;
-  display: none;
   width: 45px;
   margin: 0 auto;
 }
@@ -138,87 +167,32 @@ hr {
   transform:rotate(360deg);
 }
 
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid;
+  color: #c9563f;
+  margin: 0 auto;
+}
+
 /* About Me */
 
-.photo {
-  margin: 0 auto;
-  width: 280px;
-
+#about {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 600px;
+  margin-bottom: 75px;
 }
 
 .about-text {
   line-height: 1.6em;
 }
 
-.about {
-  padding-bottom: 40px;
+.about-text a:hover {
+  text-decoration: underline;
 }
-
-.about a {
-  color: #c9563f;
-}
-
-/* Portfolio */
-
-.portfolio a {
-  color: #c9563f;
-}
-
-.entries p {
-  margin-bottom: 5px;
-}
-
-/* Portfolio */
-.jobs {
-  background: #388ab2;
-  padding-bottom: 40px;
-}
-
-.jobs a {
-  color: #c9563f;
-}
-
-/* Footer */
-
-.copyright-footer {
-  /*color: #ffffff;*/
-  padding: 50px 0;
-}
-
-.copyright-footer a {
-  color: #fff;
-}
-
-/* Color Classes */
-
-.white {
-  color: #fff;
-}
-
-.red {
-  color: #c9563f;
-}
-
-.gray {
-  color: rgba(245,245,245,1);
-}
-
-.blue {
-  color: #388ab2;
-}
-
-/* Arrows for Pages */
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-
-  border-top: 40px solid;
-
-  margin: 0 auto;
-}
-
 
 /* Breakpoints */
 @media (min-width: 600px) {
@@ -226,50 +200,18 @@ hr {
     width: 600px;
   }
   .vert-text h1 {
-    font-size: 5em;
+    font-size: 4.5em;
   }
-  .arrow-linky {
-    display: block;
-  }
-}
-
-.container-fluid {
-  max-width: 980px;
-  margin: 0 auto;
 }
 
 /* fade in */
 
 .vert-text {
-
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
-}
-
-.navbar-default {
-  background-color: white;
-}
-
-.navbar-default .navbar-nav .custom-item-header {
-  color: #333333;
-  font-size: 13px;
-  font-family: 'Lato', sans-serif;
-}
-
-.navbar-default .navbar-nav .custom-item-header:hover {
-  color: #c9563f;
-}
-
-.navbar-nav {
-  width: 100%;
-  text-align: center;
-  > li {
-    float: none;
-    display: inline-block;
-  }
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 @keyframes fadein {

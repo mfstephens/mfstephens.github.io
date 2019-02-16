@@ -3,20 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The personal website of Matt Stephens, student and software developer">
+    <meta name="description" content="The personal website of Matt Stephens.">
     <meta name="author" content="Matthew Stephens">
-    <link type="image/x-icon" rel="icon" href="img/favicon.ico">
-    <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
     <title>Matt Stephens</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,200' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-
-    <!-- Full Page Image Header Area -->
     <div id="top" class="header">
       <div class="vert-text">
         <div class="header-container">
@@ -27,68 +26,33 @@
         <div class="arrow"><div class="arrow-linky"><a href="#about"><i class="icon-circle-arrow-down icon-fw red"></i></a></div></div>
       </div>
     </div>
-    <!-- Full Page Image Header Area -->
 
-    <!-- About -->
-    <div id ="about" class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-4 text-center">
-            <h2 id="about-text">ABOUT</h2>
-            <hr>
-          </div>
-          <div class="col-md-8 col-md-offset-2 about-text text-center">
-            <p>I'm a software engineer living in Cambridge, MA. I currently work as an iOS developer for <a href="https://www.metromile.com/">Metromile</a> in downtown Boston. I also graduated from the <a href="http://umich.edu">University of Michigan</a> in 2015.</p>
+    <div id ="about" class="center">
+      <div class="text-center">
+        <h2>ABOUT</h2>
+        <hr>
+      </div>
+      <div class="about-text">
+        <p>I'm a software engineer living in Cambridge, MA. I currently work as an iOS developer for <a href="https://www.metromile.com/">Metromile</a> in downtown Boston. I also graduated from the <a href="http://umich.edu">University of Michigan</a> in 2015. You can see my complete work and education history on <a href="http://www.linkedin.com/pub/matthew-stephens/68/2b8/b42">LinkedIn</a>. </p>
 
-            <p>I develop software both professionally and as a hobby. I tend to prefer developing iOS apps, but I am also familiar with web application development. If you have questions, or would just like to chat, please feel free to send me an email or message on LinkedIn.</p>
-            
-            <p>Some other things I am interested in: guitar, live music, basketball, woodworking, hiking, and cooking.</p>
-          </div>
-          <div class="arrow-linky"><a href="#top"><i class="icon-circle-arrow-up icon-fw red"></i></a></div>
-            <div class="col-md-6 col-md-offset-3 social-icons">
-            <hr>
-              <a class="linky" href="mailto:mfstep@umich.edu"><i class="icon-envelope icon-fw"></i></a>
-              <a class="linky" href="http://www.linkedin.com/pub/matthew-stephens/68/2b8/b42"><i class="icon-linkedin icon-fw"></i></a>
-              <a class="linky" href="https://github.com/mfstephens"><i class="icon-github icon-fw"></i></a>
-            </div>
-          </div>
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <p>Made by Matthew Stephens</p>
-          </div>
-        </div>
+        <p>I develop software both professionally and as a hobby. I tend to prefer building iOS apps, but I am also familiar with web application development. If you have questions, or just want to chat, feel free to send me an <a href="mailto:mfstep@umich.edu">email</a>.</p>
+        
+        <p>Some other things I'm interested in: guitar, live music, basketball, woodworking, hiking, and cooking.</p>
       </div>
     </div>
-    <!-- About -->
 
-  <!-- Bootstrap core JavaScript -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
-  <script src="js/animations.js"></script>
+    <footer class="center">
+      <hr>
+      <div class="social-icons text-center">
+        <span><a href="mailto:mfstep@umich.edu"><i class="icon-envelope icon-fw"></i></a></span>
+        <span><a href="http://www.linkedin.com/pub/matthew-stephens/68/2b8/b42"><i class="icon-linkedin icon-fw"></i></a></span>
+        <span><a href="https://github.com/mfstephens"><i class="icon-github icon-fw"></i></a></span>
+      </div>
+      <p class="text-center">Made by Matthew Stephens</p>
+    </footer>
 
-  <!-- Custom JavaScript for the Side Menu - Put in a custom JS file if you want to clean this up -->
-  <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-              || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
-    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/animation.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
